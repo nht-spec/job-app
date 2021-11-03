@@ -103,7 +103,12 @@ function ListPage({ data, handlechangefilters, isSubmit, isdetail, idJob }) {
 	return (
 		<Box>
 			<Container className='container-body'>
-				<Grid container direction='row' flexWrap='nowrap'>
+				<Grid
+					container
+					direction='row'
+					className='colums-mobile'
+					flexWrap='nowrap'
+				>
 					<Grid className='navbar-colum' item>
 						<Filters
 							issearch={setIsSearchLocation}
