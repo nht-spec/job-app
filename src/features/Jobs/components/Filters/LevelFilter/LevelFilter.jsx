@@ -38,13 +38,13 @@ function LevelFilter({ handlechangelevel }) {
 				{mode && (
 					<div className='title-choose-level'>
 						<p>The experience level </p>
-						<p className='text'>+ Show</p>
+						<p className='text'>+ show</p>
 					</div>
 				)}
 				{!mode && (
 					<div className='title-choose-level'>
 						<p>The experience level</p>
-						<p className='text'>- Hide</p>
+						<p className='text'>- hide</p>
 					</div>
 				)}
 			</div>
