@@ -1,0 +1,76 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.company-search-list-control {
+	position: relative;
+	.form-search-control {
+		padding: 4px 4px 4px 16px;
+		display: flex;
+		width: 790px;
+		height: 55px;
+		background-color: #ffffff;
+		box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+		border-radius: 4px;
+		justify-content: space-between;
+		.form-search-company {
+			display: flex;
+			width: 100%;
+			align-items: center;
+			.material-icons {
+				font-size: 15px;
+				color: #b9bdcf;
+				padding-right: 9.5px;
+			}
+		}
+		.btn-search-company {
+			cursor: pointer;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 19px;
+			color: #ffffff;
+			width: 146px;
+			height: 47px;
+			border: unset;
+			background-color: #1e86ff;
+			border-radius: 4px;
+		}
+	}
+	.company-list-name {
+		position: absolute;
+		width: 100%;
+		background-color: #f9f9f9;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		z-index: 1;
+		border-radius: 4px;
+	}
+	.company-list-name li {
+		color: #334680;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+	.company-list-name li:hover {
+		cursor: pointer;
+		border-radius: 4px;
+		border: 1px solid #334680;
+	}
+}
+@media all and (max-width: 768px) {
+	.company-search-list-control {
+		position: relative;
+		.form-search-control {
+			width: 315px;
+			height: 55px;
+		}
+	}
+}

@@ -1,0 +1,49 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.header-control {
+	width: 1201px;
+	margin-left: auto;
+	margin-right: auto;
+	.header-title {
+		color: #282538;
+		display: flex;
+		align-items: center;
+		font-family: 'Poppins';
+		font-style: normal;
+		.brand-name-one {
+			margin-right: 5px;
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 36px;
+		}
+		.brand-name-two {
+			font-weight: 300;
+		}
+	}
+	.header-backgroup-from-search {
+		margin-top: 32px;
+		display: flex;
+		width: 1201px;
+		height: 138px;
+		border-radius: 8px;
+		background-position: center;
+		background-size: cover;
+		margin-left: auto;
+		margin-right: auto;
+		background-image: url('https://s3-alpha-sig.figma.com/img/819d/1e39/c155567b9ef7880cd9b854cd00a20f4f?Expires=1636934400&Signature=KOYQGWU-JEY-6DQRK-lW5rpXDRAfvsTUxw~32DUw90T0G9onrXMJpezG1W0SHoTIyjlDhXu836byIMBVWE4XpQWbrTXAlJnRezz3rjPMhdfCJ7D6Vk8aaKhXnWpDUJNGr8vWQMV-SnbJ1FQ0sZGwUJWYVn2MHNiC68L50AD4LoyMFsF4n5DWR2wdsrVqd3b0BRfU7ETj85qMPM84A7P0ZPAJ8G7PQQmEG8t00Fmc240lG~eNWoupnnPGdOs869810rQFKK3UZMu~UP6P8AOWldxIm6pV4pvWRbB5JqWR3Uq7F1LaMpkwmSHwMRVXPwsrEHlhIHq8v1nyI4zoFq6-jA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media all and (max-width: 768px) {
+	.header-control {
+		width: 100%;
+		.header-backgroup-from-search {
+			width: 351px;
+			height: 138px;
+		}
+	}
+}

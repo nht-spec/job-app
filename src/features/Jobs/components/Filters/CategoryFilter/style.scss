@@ -1,0 +1,55 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.category-list-control {
+	font-family: 'Poppins';
+	font-style: normal;
+	flex-direction: row;
+	flex-wrap: wrap;
+	display: flex;
+	.category-list-layout {
+		height: 200px;
+		width: 100%;
+		overflow-y: scroll;
+		.item-category {
+			display: flex;
+			width: 100%;
+			margin-bottom: 16px;
+			align-items: center;
+			font-size: 14px;
+			line-height: 21px;
+			color: #334680;
+			.input-checkbox {
+				margin-right: 12.5px;
+				width: 18px;
+				border: 1px solid #b9bdcf;
+				height: 18px;
+			}
+		}
+	}
+	.title-choose-category {
+		display: flex;
+		cursor: pointer;
+		align-items: center;
+		padding: 0 10px;
+		width: 379px;
+		height: 50px;
+		background: #ffffff;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+		border-radius: 4px;
+		color: #334680;
+		margin-bottom: 15px;
+		justify-content: space-between;
+	}
+}
+@media all and (max-width: 768px) {
+	.category-list-control {
+		display: unset;
+		.title-choose-category {
+			width: 100%;
+		}
+	}
+}

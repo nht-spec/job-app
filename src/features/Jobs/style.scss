@@ -1,0 +1,15 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.job-features {
+	margin: 32px 119px 0 120px;
+}
+
+@media all and (max-width: 768px) {
+	.job-features {
+		margin: 12px 12px 71px 12px;
+	}
+}

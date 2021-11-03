@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.level-filter {
+	font-family: Poppins;
+	color: #b9bdcf;
+	.level-filter-title {
+		margin-bottom: 14px;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 21px;
+		text-transform: uppercase;
+	}
+}
+
+.full-time-date {
+	display: flex;
+	margin-bottom: 30px;
+	align-items: center;
+	.check-box {
+		width: 18px;
+		height: 18px;
+		border: 1px solid #b9bdcf;
+		box-sizing: border-box;
+		border-radius: 2px;
+		margin-right: 12px;
+	}
+	.full-time-title {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 21px;
+		color: #334680;
+	}
+}

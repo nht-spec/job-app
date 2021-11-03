@@ -1,0 +1,21 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.input-field {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	color: #b9bdcf;
+	width: 100%;
+	height: 100%;
+	border: unset;
+	text-overflow: ellipsis;
+}
+.input-field:focus-visible {
+	outline: unset;
+}
