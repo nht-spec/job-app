@@ -35,10 +35,10 @@
 	.colums-mobile {
 		display: flex !important;
 		flex-direction: column !important;
-		padding-left: unset !important;
-		padding-right: unset !important;
 	}
 	.container-body {
+		padding-left: unset !important;
+		padding-right: unset !important;
 		margin: 29px 0 71px 0;
 		.navbar-colum {
 			margin-right: unset;
