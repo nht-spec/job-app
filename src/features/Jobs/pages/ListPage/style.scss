@@ -35,7 +35,8 @@
 	.colums-mobile {
 		display: flex !important;
 		flex-direction: column !important;
-		padding: unset !important;
+		padding-left: unset !important;
+		padding-right: unset !important;
 	}
 	.container-body {
 		margin: 29px 0 71px 0;
