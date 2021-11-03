@@ -32,6 +32,10 @@
 }
 
 @media all and (max-width: 768px) {
+	.css-jk7d6e-MuiGrid-root {
+		flex-wrap: nowrap !important;
+		flex-direction: column !important;
+	}
 	.container-body {
 		margin: 29px 0 71px 0;
 		.navbar-colum {
@@ -41,9 +45,5 @@
 		.contens-colum {
 			width: 100%;
 		}
-	}
-	.css-jk7d6e-MuiGrid-root {
-		flex-wrap: nowrap !important;
-		flex-direction: column !important;
 	}
 }
